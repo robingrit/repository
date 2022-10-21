@@ -37,22 +37,14 @@ public class jsonReader {
 		    JSONObject data =(JSONObject) person.get("data");
 		    System.out.println(data);
 		    
+		    
+		    
 		    String Scans =(String) data.get("scans").toString(); 
 		  
 		     
 		   
 		    
 		    System.out.println(Scans);
-
-		    
-		    
-		    
-		   
-
-		
-		    
-		    
-
 		    
 
 		    

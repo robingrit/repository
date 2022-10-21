@@ -37,29 +37,29 @@
 
 
         //Label
-        JLabel static_data_label=new JLabel("Static Data Table");
-        static_data_label.setAlignmentX(JLabel.CENTER);
-        static_data_label.setBackground(Color.BLACK);
-        static_data_label.setForeground(Color.WHITE);
-        static_data_label.setOpaque(true);
-        EmptyBorder emptyBorder=new EmptyBorder(20,20,20,20);
-        static_data_label.setBorder(emptyBorder);
-        jPanel.add(static_data_label);
-
-        //Data and Column
-        String column[]={"Name","Email","Age"};
-        String data[][]={
-                {"Rahul","rahul@gmail.com","30"},
-                {"Vishal","vishal@gmail.com","31"},
-                {"Aman","aman@gmail.com","29"}
-        };
+//        JLabel static_data_label=new JLabel("Static Data Table");
+//        static_data_label.setAlignmentX(JLabel.CENTER);
+//        static_data_label.setBackground(Color.BLACK);
+//        static_data_label.setForeground(Color.WHITE);
+//        static_data_label.setOpaque(true);
+//        EmptyBorder emptyBorder=new EmptyBorder(20,20,20,20);
+//        static_data_label.setBorder(emptyBorder);
+//        jPanel.add(static_data_label);
+//
+//        //Data and Column
+//        String column[]={"Name","Email","Age"};
+//        String data[][]={
+//                {"Rahul","rahul@gmail.com","30"},
+//                {"Vishal","vishal@gmail.com","31"},
+//                {"Aman","aman@gmail.com","29"}
+//        };
 
         //table
-        JTable jTable=new JTable(data,column);
+        //JTable jTable=new JTable(data,column);
 
-        JScrollPane jScrollPane=new JScrollPane();
-        jScrollPane.getViewport().add(jTable);
-        jPanel.add(jScrollPane);
+//        JScrollPane jScrollPane=new JScrollPane();
+//        jScrollPane.getViewport().add(jTable);
+//        jPanel.add(jScrollPane);
 
         //Label
         JLabel dynamic_data=new JLabel("Dynamic Data Table");
@@ -99,18 +99,7 @@
 
         jPanel.add(jScrollPane1);
 
-        //Showing Csv Data in Table
-        //Label
-        JLabel csv_data_label=new JLabel("CSV Data Table");
-        csv_data_label.setAlignmentX(JLabel.CENTER);
-        csv_data_label.setBackground(Color.BLACK);
-        csv_data_label.setForeground(Color.WHITE);
-        csv_data_label.setOpaque(true);
-        EmptyBorder emptyBorder3=new EmptyBorder(20,20,20,20);
-        csv_data_label.setBorder(emptyBorder3);
-        jPanel.add(csv_data_label);
-		
-		frame.setVisible(true);
+       
 		
 	}
 	    public static void main(String args[]){
