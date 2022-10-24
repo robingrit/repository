@@ -2,7 +2,7 @@
 public class qrIdBean {
 	String Option1 = "QMXB";
 	String Option2 = "FT7P";
-	String Option3 = "44JO";
+	String Option3 = "BGEA";
 	
 	String ScanOption1;
 	String ScanOption2;
