@@ -7,6 +7,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JsonSimple"/>
-	<classpathentry kind="lib" path="C:/Users/zorpi/Downloads/commons-csv-1.8.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/CsvParser"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

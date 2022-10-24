@@ -1,38 +1,57 @@
 
 public class JsonBean { 
-	String Json1;
-	String Json2;
-	String Json3;
 	
+	String loc;
 	
-	public JsonBean(String json1, String json2, String json3) {
+	String city;
+	String device;
+	String count;
+	public JsonBean(String count, String loc, String city, String device) {
 		super();
-		Json1 = json1;
-		Json2 = json2;
-		Json3 = json3;
+		this.count = count;
+		this.loc = loc;
+		this.city = city;
+		this.device = device;
 	}
+	
 	public JsonBean() {
 		super();
 		
 	}
-	public String getJson1() {
-		return Json1;
+	
+	public String getLoc() {
+		return loc;
 	}
-	public void setJson1(String json1) {
-		Json1 = json1;
+
+	public void setLoc(String loc) {
+		this.loc = loc;
 	}
-	public String getJson2() {
-		return Json2;
+
+	public String getCity() {
+		return city;
 	}
-	public void setJson2(String json2) {
-		Json2 = json2;
+
+	public void setCity(String city) {
+		this.city = city;
 	}
-	public String getJson3() {
-		return Json3;
+
+	public String getDevice() {
+		return device;
 	}
-	public void setJson3(String json3) {
-		Json3 = json3;
+
+	public void setDevice(String device) {
+		this.device = device;
 	}
+
+	public String getCount() {
+		return count;
+	}
+
+	public void setCount(String count) {
+		this.count = count;
+	}
+
+	
 	
 
 }
