@@ -8,5 +8,7 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JsonSimple"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/CsvParser"/>
+	<classpathentry kind="lib" path="src/lib/commons-csv-1.8.jar"/>
+	<classpathentry kind="lib" path="src/lib/json-simple-1.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
